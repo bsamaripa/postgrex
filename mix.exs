@@ -31,7 +31,7 @@ defmodule Postgrex.Mixfile do
     [
       {:ex_doc, "~> 0.14", only: :docs},
       {:decimal, "~> 1.0"},
-      {:db_connection, "~> 1.1"},
+      {:db_connection, "~> 1.1 or ~>2.0"},
       {:connection, "~> 1.0"}
     ]
   end
